@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+DataDRivenTestDemo,,,2019-02-19 12:21:16,2019-02-19 12:21:38,21.169s,PASSED
+,,,,,,
+Test Cases/DataDRivernTestDemo,,,2019-02-19 12:21:17,2019-02-19 12:21:32,14.539s,PASSED
+"println(""...value of country code is:"" + CountryISOCode)",,,2019-02-19 12:21:18,2019-02-19 12:21:18,0.009s,PASSED
+"println(""...value of curreny is :"" + Capital)",,,2019-02-19 12:21:18,2019-02-19 12:21:18,0.005s,PASSED
+"println(""...value of curreny is :"" + CountryCurrency)",,,2019-02-19 12:21:18,2019-02-19 12:21:18,0.011s,PASSED
+"response1 = sendRequest(findTestObject(""Conunty Info Service/GetCapital"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:18,2019-02-19 12:21:30,11.715s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,2019-02-19 12:21:30,2019-02-19 12:21:30,0.600s,PASSED
+"response2 = sendRequest(findTestObject(""Conunty Info Service/getCurrency"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:30,2019-02-19 12:21:32,1.263s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CountryCurrency)",,,2019-02-19 12:21:32,2019-02-19 12:21:32,0.066s,PASSED
+,,,,,,
+Test Cases/DataDRivernTestDemo,,,2019-02-19 12:21:32,2019-02-19 12:21:35,2.921s,PASSED
+"println(""...value of country code is:"" + CountryISOCode)",,,2019-02-19 12:21:32,2019-02-19 12:21:32,0.002s,PASSED
+"println(""...value of curreny is :"" + Capital)",,,2019-02-19 12:21:32,2019-02-19 12:21:32,0.008s,PASSED
+"println(""...value of curreny is :"" + CountryCurrency)",,,2019-02-19 12:21:32,2019-02-19 12:21:32,0.006s,PASSED
+"response1 = sendRequest(findTestObject(""Conunty Info Service/GetCapital"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:32,2019-02-19 12:21:33,1.441s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,2019-02-19 12:21:33,2019-02-19 12:21:33,0.062s,PASSED
+"response2 = sendRequest(findTestObject(""Conunty Info Service/getCurrency"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:33,2019-02-19 12:21:35,1.294s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CountryCurrency)",,,2019-02-19 12:21:35,2019-02-19 12:21:35,0.068s,PASSED
+,,,,,,
+Test Cases/DataDRivernTestDemo,,,2019-02-19 12:21:35,2019-02-19 12:21:37,2.685s,PASSED
+"println(""...value of country code is:"" + CountryISOCode)",,,2019-02-19 12:21:35,2019-02-19 12:21:35,0.006s,PASSED
+"println(""...value of curreny is :"" + Capital)",,,2019-02-19 12:21:35,2019-02-19 12:21:35,0.007s,PASSED
+"println(""...value of curreny is :"" + CountryCurrency)",,,2019-02-19 12:21:35,2019-02-19 12:21:35,0.010s,PASSED
+"response1 = sendRequest(findTestObject(""Conunty Info Service/GetCapital"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:35,2019-02-19 12:21:36,1.322s,PASSED
+"verifyElementText(response1, ""CapitalCityResponse.CapitalCityResult"", Capital)",,,2019-02-19 12:21:36,2019-02-19 12:21:36,0.043s,PASSED
+"response2 = sendRequest(findTestObject(""Conunty Info Service/getCurrency"", [""CountryISOCode"":CountryISOCode]))",,,2019-02-19 12:21:36,2019-02-19 12:21:37,1.195s,PASSED
+"verifyElementText(response2, ""CountryCurrencyResponse.CountryCurrencyResult.sName"", CountryCurrency)",,,2019-02-19 12:21:37,2019-02-19 12:21:37,0.049s,PASSED

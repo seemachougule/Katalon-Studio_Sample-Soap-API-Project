@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+TestSuite1,,,2019-02-18 12:41:18,2019-02-18 12:42:35,1m - 16.608s,PASSED
+,,,,,,
+Test Cases/Test1,,,2019-02-18 12:41:19,2019-02-18 12:42:17,58.599s,PASSED
+"sendRequest(findTestObject(""Conunty Info Service/GetCountrylist by Name""))",,,2019-02-18 12:41:20,2019-02-18 12:41:44,24.226s,PASSED
+"sendRequestAndVerify(findTestObject(""Conunty Info Service/GetCountrylist by Name""))",,,2019-02-18 12:41:44,2019-02-18 12:42:17,33.588s,PASSED
+,,,,,,
+Test Cases/Test2 for API chaining,,,2019-02-18 12:42:18,2019-02-18 12:42:35,17.184s,PASSED
+"response1 = sendRequest(findTestObject(""Conunty Info Service/GetCountrylist by Name""))",,,2019-02-18 12:42:18,2019-02-18 12:42:28,10.001s,PASSED
+xml1 = responseBodyContent,,,2019-02-18 12:42:28,2019-02-18 12:42:28,0.114s,PASSED
+dataValue = XmlSlurper().parseText(xml1),,,2019-02-18 12:42:28,2019-02-18 12:42:28,0.010s,PASSED
+countryCode = sISOCode.text(),,,2019-02-18 12:42:28,2019-02-18 12:42:28,0.002s,PASSED
+countryCode = countryCode,,,2019-02-18 12:42:28,2019-02-18 12:42:28,0.043s,PASSED
+"println(""...value for Global variable is :"" + countryCode)",,,2019-02-18 12:42:28,2019-02-18 12:42:28,0.007s,PASSED
+"sendRequest(findTestObject(""Conunty Info Service/GetCapital"", [""CountryISOCode"":countryCode]))",,,2019-02-18 12:42:28,2019-02-18 12:42:35,6.540s,PASSED

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="DataDRivenTestDemo" time="21" tests="3" failures="0" errors="0">
+   <testsuite name="DataDRivenTestDemo" tests="3" failures="0" errors="0" time="21" timestamp="2019-02-19 12:21:16" hostname="TH-Seema - DESKTOP-3ARNFU0" id="Test Suites/DataDRivenTestDemo">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TH-Seema\\Katalon Studio\\API testing\\Sample Soap API Projet\\Reports\\DataDRivenTestDemo\\20190219_122109"/>
+         <property name="logFiles" value="C:\\Users\\TH-Seema\\Katalon Studio\\API testing\\Sample Soap API Projet\\Reports\\DataDRivenTestDemo\\20190219_122109\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TH-Seema - DESKTOP-3ARNFU0"/>
+         <property name="hostAddress" value="192.168.2.22"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.10.1.1"/>
+      </properties>
+      <testcase name="Test Cases/DataDRivernTestDemo" classname="Test Cases/DataDRivernTestDemo" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:21:17 - [TEST_CASE][PASSED] - Test Cases/DataDRivernTestDemo: Test Cases/DataDRivernTestDemo
+
+2019-02-19 12:21:18 - [TEST_STEP][PASSED] - println("...value of country code is:" + CountryISOCode): null
+
+2019-02-19 12:21:18 - [TEST_STEP][PASSED] - println("...value of curreny is :" + Capital): null
+
+2019-02-19 12:21:18 - [TEST_STEP][PASSED] - println("...value of curreny is :" + CountryCurrency): null
+
+2019-02-19 12:21:18 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Conunty Info Service/GetCapital", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:30 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\0.har
+
+2019-02-19 12:21:30 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:30 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+2019-02-19 12:21:30 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-02-19 12:21:30 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("Conunty Info Service/getCurrency", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:32 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\1.har
+
+2019-02-19 12:21:32 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:32 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", CountryCurrency): Verify element text successfully
+
+2019-02-19 12:21:32 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDRivernTestDemo" classname="Test Cases/DataDRivernTestDemo" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:21:32 - [TEST_CASE][PASSED] - Test Cases/DataDRivernTestDemo: Test Cases/DataDRivernTestDemo
+
+2019-02-19 12:21:32 - [TEST_STEP][PASSED] - println("...value of country code is:" + CountryISOCode): null
+
+2019-02-19 12:21:32 - [TEST_STEP][PASSED] - println("...value of curreny is :" + Capital): null
+
+2019-02-19 12:21:32 - [TEST_STEP][PASSED] - println("...value of curreny is :" + CountryCurrency): null
+
+2019-02-19 12:21:32 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Conunty Info Service/GetCapital", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:33 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\2.har
+
+2019-02-19 12:21:33 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:33 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+2019-02-19 12:21:33 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-02-19 12:21:33 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("Conunty Info Service/getCurrency", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:35 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\3.har
+
+2019-02-19 12:21:35 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:35 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", CountryCurrency): Verify element text successfully
+
+2019-02-19 12:21:35 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DataDRivernTestDemo" classname="Test Cases/DataDRivernTestDemo" status="PASSED">
+         <system-out><![CDATA[2019-02-19 12:21:35 - [TEST_CASE][PASSED] - Test Cases/DataDRivernTestDemo: Test Cases/DataDRivernTestDemo
+
+2019-02-19 12:21:35 - [TEST_STEP][PASSED] - println("...value of country code is:" + CountryISOCode): null
+
+2019-02-19 12:21:35 - [TEST_STEP][PASSED] - println("...value of curreny is :" + Capital): null
+
+2019-02-19 12:21:35 - [TEST_STEP][PASSED] - println("...value of curreny is :" + CountryCurrency): null
+
+2019-02-19 12:21:35 - [TEST_STEP][PASSED] - response1 = sendRequest(findTestObject("Conunty Info Service/GetCapital", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:36 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\4.har
+
+2019-02-19 12:21:36 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:36 - [TEST_STEP][PASSED] - verifyElementText(response1, "CapitalCityResponse.CapitalCityResult", Capital): Verify element text successfully
+
+2019-02-19 12:21:36 - [MESSAGE][PASSED] - Verify element text successfully
+
+2019-02-19 12:21:36 - [TEST_STEP][PASSED] - response2 = sendRequest(findTestObject("Conunty Info Service/getCurrency", ["CountryISOCode":CountryISOCode])): Send request successfully
+
+2019-02-19 12:21:37 - [MESSAGE][INFO] - HAR: C:\Users\TH-Seema\Katalon Studio\API testing\Sample Soap API Projet\Reports\DataDRivenTestDemo\20190219_122109\requests\main\5.har
+
+2019-02-19 12:21:37 - [MESSAGE][PASSED] - Send request successfully
+
+2019-02-19 12:21:37 - [TEST_STEP][PASSED] - verifyElementText(response2, "CountryCurrencyResponse.CountryCurrencyResult.sName", CountryCurrency): Verify element text successfully
+
+2019-02-19 12:21:37 - [MESSAGE][PASSED] - Verify element text successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-02-19 12:21:16 - [TEST_SUITE][PASSED] - DataDRivenTestDemo: Test Cases/DataDRivernTestDemo]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

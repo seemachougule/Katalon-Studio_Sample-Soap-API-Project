@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>DataDRivernTestDemo</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0fd56457-c4ce-450d-b006-177bfe0c8d72</testCaseGuid>
+   <variable>
+      <defaultValue>'IN'</defaultValue>
+      <description></description>
+      <id>1619b3d6-d9d3-4d32-b9b4-148bc5aab5ec</id>
+      <masked>false</masked>
+      <name>CountryISOCode</name>
+   </variable>
+   <variable>
+      <defaultValue>'New Delhi'</defaultValue>
+      <description></description>
+      <id>c00b2188-8c13-4dd0-a721-ca75dc1cbf20</id>
+      <masked>false</masked>
+      <name>Capital</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rupees'</defaultValue>
+      <description></description>
+      <id>e570e295-e660-4307-9806-daaa57edba18</id>
+      <masked>false</masked>
+      <name>CountryCurrency</name>
+   </variable>
+</TestCaseEntity>
